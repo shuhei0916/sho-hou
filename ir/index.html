@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IR情報 | 株式会社正宝</title>
+  <meta name="description" content="株式会社正宝のIR情報ページ。電子公告を掲載しています。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;800&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink:        #1a1a1a;
+      --ink-mid:    #3d3d3d;
+      --ink-light:  #787878;
+      --paper:      #f7f4ef;
+      --paper-warm: #ede9e1;
+      --red:        #8b1a1a;
+      --border:     #c8c0b0;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 300;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+    header {
+      background: var(--ink);
+      color: var(--paper);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 3px solid var(--red);
+    }
+    .header-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .logo {
+      font-family: 'Shippori Mincho', serif;
+      font-weight: 800;
+      font-size: 1.35rem;
+      letter-spacing: 0.12em;
+      color: var(--paper);
+      text-decoration: none;
+    }
+    .logo span {
+      font-size: 0.72rem;
+      font-weight: 400;
+      opacity: 0.65;
+      display: block;
+      letter-spacing: 0.08em;
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+    .header-back {
+      font-size: 0.8rem;
+      color: rgba(247,244,239,0.6);
+      text-decoration: none;
+      letter-spacing: 0.06em;
+      transition: color 0.2s;
+    }
+    .header-back:hover { color: var(--paper); }
+
+    .page-hero {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 48px 24px 40px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .page-hero-inner { max-width: 840px; margin: 0 auto; }
+    .page-hero-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      opacity: 0.45;
+      margin-bottom: 10px;
+    }
+    .page-hero h1 {
+      font-family: 'Shippori Mincho', serif;
+      font-weight: 600;
+      font-size: 1.8rem;
+      letter-spacing: 0.12em;
+    }
+    .page-hero p {
+      font-size: 0.85rem;
+      opacity: 0.5;
+      margin-top: 8px;
+    }
+
+    main {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    .ir-card {
+      border: 1px solid var(--border);
+      background: #fff;
+      padding: 28px 30px;
+      text-decoration: none;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .ir-card:hover {
+      border-color: var(--red);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    .ir-card-left {}
+    .ir-card-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      color: var(--red);
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+    .ir-card-title {
+      font-family: 'Shippori Mincho', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+    }
+    .ir-card-desc {
+      font-size: 0.8rem;
+      color: var(--ink-light);
+      line-height: 1.6;
+    }
+    .ir-card-arrow {
+      font-size: 1.2rem;
+      color: var(--border);
+      flex-shrink: 0;
+      transition: color 0.2s;
+    }
+    .ir-card:hover .ir-card-arrow { color: var(--red); }
+
+    footer {
+      background: #111;
+      color: rgba(247,244,239,0.3);
+      text-align: center;
+      padding: 20px 24px;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 600px) {
+      .header-inner { flex-direction: column; align-items: flex-start; gap: 8px; }
+      .page-hero { padding: 36px 20px 30px; }
+      main { padding: 40px 20px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="/">
+        株式会社正宝
+        <span>SHO-HOU CO., LTD.</span>
+      </a>
+      <a class="header-back" href="/">← トップへ</a>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="page-hero-inner">
+      <p class="page-hero-label">INVESTOR RELATIONS</p>
+      <h1>IR情報</h1>
+      <p>株主・関係者向けの情報を掲載しております</p>
+    </div>
+  </div>
+
+  <main>
+    <a class="ir-card" href="/ir/announcement/">
+      <div class="ir-card-left">
+        <div class="ir-card-label">ELECTRONIC NOTICE</div>
+        <div class="ir-card-title">電子公告</div>
+        <div class="ir-card-desc">会社法第939条第1項第3号に基づく電子公告を掲載しています</div>
+      </div>
+      <div class="ir-card-arrow">→</div>
+    </a>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 株式会社正宝 SHO-HOU CO., LTD. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
